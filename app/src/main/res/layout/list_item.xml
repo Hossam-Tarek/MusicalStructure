@@ -6,7 +6,6 @@
 
     <ImageView
         android:id="@+id/image_view"
-        android:src="@drawable/a_love_song"
         android:layout_width="@dimen/list_item_height"
         android:layout_height="@dimen/list_item_height"
         android:layout_marginRight="@dimen/margin"/>
@@ -23,12 +22,16 @@
             android:layout_weight="1"
             android:gravity="bottom"
             android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@android:color/black"/>
+            android:textColor="@android:color/black"
+            android:singleLine="true"
+            android:layout_marginRight="@dimen/margin"/>
 
         <TextView
             android:id="@+id/artist_text_view"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:layout_marginRight="@dimen/margin"/>
     </LinearLayout>
 </LinearLayout>
