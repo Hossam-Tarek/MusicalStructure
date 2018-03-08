@@ -2,6 +2,7 @@ package com.example.hossam.musicalstructure;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ListView;
 
 import java.util.ArrayList;
 
@@ -35,5 +36,9 @@ public class MainActivity extends AppCompatActivity {
         tiles.add(new Tile("Come With Me", "Ricky Martin", R.drawable.come_with_me));
         tiles.add(new Tile("Only Girl (In The World)", "Rihanna", R.drawable.only_girl));
 
+        TileAdapter adapter = new TileAdapter(this, tiles);
+
+        ListView listView = findViewById(R.id.list_view);
+        listView.setAdapter(adapter);
     }
 }
