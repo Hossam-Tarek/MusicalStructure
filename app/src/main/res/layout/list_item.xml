@@ -20,18 +20,18 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/name_text_view"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="A Love Song"
             android:gravity="bottom"
             android:textAppearance="?android:textAppearanceMedium"
             android:textStyle="bold"/>
 
         <TextView
+            android:id="@+id/artist_text_view"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
-            android:text="Kenny Rogers"/>
+            android:layout_weight="1"/>
     </LinearLayout>
 </LinearLayout>
