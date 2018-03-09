@@ -49,6 +49,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent intent = new Intent(MainActivity.this, NowPlayingActivity.class);
+                Tile tile = (Tile) adapterView.getItemAtPosition(i);
+                intent.putExtra("imageResourceID", tile.getImageResourceID());
+                intent.putExtra("name", tile.getName());
+                intent.putExtra("artist", tile.getArtist());
                 startActivity(intent);
             }
         });
