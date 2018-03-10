@@ -10,7 +10,7 @@
         android:layout_width="@dimen/list_item_height"
         android:layout_height="@dimen/list_item_height"
         android:layout_marginRight="@dimen/margin"
-        tools:src="@drawable/sucker_for_pain"/>
+        tools:src="@drawable/only_girl"/>
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -27,7 +27,7 @@
             android:textColor="@android:color/black"
             android:singleLine="true"
             android:layout_marginRight="@dimen/margin"
-            tools:text="Sucker For Pain"/>
+            tools:text="Only Girl (In The World)"/>
 
         <TextView
             android:id="@+id/artist_text_view"
@@ -36,6 +36,6 @@
             android:layout_weight="1"
             android:singleLine="true"
             android:layout_marginRight="@dimen/margin"
-            tools:text="Lil Wayne, Wiz Khalifa & Imagine Dragons"/>
+            tools:text="Rihanna"/>
     </LinearLayout>
 </LinearLayout>
